@@ -17,9 +17,9 @@
 
 <P>Then we have programmed our Arduino according to the requirements. Working on this is very simple. We have generated PWM from Arduino and put it at the base terminal of the transistor. Then transistor generates voltage with respect to the PWM input.</P>
 <H4>Connections</H4>
-<P><B> Step 1 : Gather all these components</B></P>
-<OL> 
-  <LI> 1.1 Components required</LI>
+<OL> <B>  Gather all these components</B>
+
+  <LI>  Components required</LI>
    <UL>
         
 <LI>Arduino UNO</LI>
@@ -32,8 +32,16 @@
 <LI>Connecting wires</LI>
 Connections of this are very easy to do, here an LCD is connected for displaying temperature and Fan speed Status.
 </UL>
-<LI>Step 2 : LCD connection with Arduino</LI>
+<LI><B>LCD connection with Arduino</B></LI>
 LCD is directly connected to Arduino (Check this tutorial for more details: LCD Interfacing with Arduino Uno). Connect pins of LCD- RS, EN, D4, D5, D6, and D7 to Arduino's digital pin numbers 7, 6, 5, 4, 3, and 2.
+<LI><B> DHT 11 temperature and humidity sensor connection</B></LI>
+And a DHT11 sensor module is also connected to digital pin 12 of Arduino. Digital pin 9 is used for controlling fan speed through the transistor.
+<IMG-SRC="https://robu.in/wp-content/uploads/2021/02/circuit-1024x576.png" ALT="CIRCUIT DIAGRAM">
+  <LI><B> Upload the code </B></LI>
+
+The below section is for the code. Here the first table gives you an idea of what PWM value will be the speed of the fan. You can change values according to your need.
 </OL>
+<H4> FINAL WORDS</H4>
+<P> we learned about, how we can make a temperature-controlled fan circuit. Using an Arduino, DHT11, and few other components. Which can be used pretty much any place where temperature needs to be maintained at specific levels. Like in some industries, houses, etc. We checked how it actually works and we also learned how to code for a temperature-controlled fan.</P>
 
 
