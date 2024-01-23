@@ -9,16 +9,20 @@
 <P>We are going to do this with a DHT11 temperature and humidity sensor. It can be done in various other ways as well. With a thermistor or other sensors like a contactless temperature sensor. But thermistor usually needs contact of the surface and contactless sensors can be costly. While DHT11 is a cost-effective sensor.</P>
 
 <P>In this article, we are going to discuss making a temperature-controlled fan using Arduino. With this circuit, we will be able to change the fan speed in our home or any place according to the room temperature and also display the temperature and fan speed changes on a 16x2 LCD display. To do this we will be using an Arduino UNO Board, LCD, DHT11 sensor Module, and DC fan. Let's get started.</P>
+
 <H4>How does it Work? </H4>
+
 <H6>This project works in three parts -</H6>
 <P>n the first step, the sensor senses the temperature by temperature and humidity sensor namely DHT11.</P>
 
 <P>In the second step, the sensor's output is taken and conversion of temperature value into a suitable number in Celsius scale is done. The fan speed is controlled by using PWM signals. And last part of the system shows humidity and temperature on LCD and Fan runs.</P>
 
 <P>Then we have programmed our Arduino according to the requirements. Working on this is very simple. We have generated PWM from Arduino and put it at the base terminal of the transistor. Then transistor generates voltage with respect to the PWM input.</P>
-<H4>Connections</H4>
-<OL> <B>  Gather all these components</B>
 
+<H4>Connections</H4>
+
+<OL> <LI><B>  Gather all these components</B></LI>
+<OL>
   <LI>  Components required</LI>
    <UL>
         
@@ -31,7 +35,7 @@
 <LI>16x2 LCD</LI>
 <LI>Connecting wires</LI>
 Connections of this are very easy to do, here an LCD is connected for displaying temperature and Fan speed Status.
-</UL>
+</UL></OL>
 <LI><B>LCD connection with Arduino</B></LI>
 LCD is directly connected to Arduino (Check this tutorial for more details: LCD Interfacing with Arduino Uno). Connect pins of LCD- RS, EN, D4, D5, D6, and D7 to Arduino's digital pin numbers 7, 6, 5, 4, 3, and 2.
 <LI><B> DHT 11 temperature and humidity sensor connection</B></LI>
