@@ -1,6 +1,11 @@
 # Automatic-temperature-controlled-fan
+<h6> IIOT Project </h6>
 <h6> Using Arduino Step by Step Guide with Code</h6>
 <img src="https://robu.in/wp-content/uploads/2021/02/ckt2-1024x683.jpg" alt="img">
+<ul><b>Software nd Language Used:</b>
+<li> Arduino ID (Platform)</li>
+<li> C++ </li>
+  </ul>
 <h4> INTRODUCTION </h4>
 <P>Temperature controlling is required in many places such as server rooms, houses, industries, etc. So this project can be very useful in understanding the basics, how you can control the temperature at your home. You can take this as a DIY project which can be used anywhere. Here the Temperature controlled fan will act to the temperature changes.</P>
 
