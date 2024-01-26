@@ -1,6 +1,7 @@
 # Automatic-temperature-controlled-fan
-<h6> IIOT Project </h6>
+
 <h6> Using Arduino Step by Step Guide with Code</h6>
+<h6> IIOT Project </h6>
 <img src="https://robu.in/wp-content/uploads/2021/02/ckt2-1024x683.jpg" alt="img">
 <ul><b>Software nd Language Used:</b>
 <li> Arduino ID (Platform)</li>
