@@ -26,7 +26,7 @@ byte degree[8] =
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  lcd.begin(16, 2);
+ lcd.begin(16, 2);
  lcd.createChar(1, degree);
  lcd.clear();
  lcd.print("   Fan Speed  ");
@@ -37,8 +37,8 @@ void setup() {
  lcd.clear();
  lcd.print("ichha ");
  delay(2000);
-  Serial.begin(9600); 
-  dht.begin();
+ Serial.begin(9600); 
+ dht.begin();
 }
 
 void loop() {
